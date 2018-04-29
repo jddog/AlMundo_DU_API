@@ -1,14 +1,17 @@
 var express = require('express');
-var hotelsDAO = require('./dataaccess/hotelsDAO');
+var hotelRout = require('./routs/hotelsRout');
+var bodyParser = require('body-parser');
 
-var mirout = require('./routs/pruebaRout');
 
 var app = express();
 var port = process.env.port || 9000;
+
+app.use(bodyParser.json());
+app.use('/AlMundoHotelsAPI', hotelRout);
 
 app.listen(port, (error) => {
     console.log("Servidor corriendo :",port);
 });
 
-app.use('/testRout', mirout);
+
 
