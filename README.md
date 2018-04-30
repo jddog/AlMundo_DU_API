@@ -47,7 +47,10 @@ node index.js
 - Para consultar todos los hoteles, se debe enviar una peticion de tipo GET a la siguiente url
 
 ```sh
+Localhost:
+http://localhost:9000/AlMundoHotelsAPI/hotels
 
+Publicado:
 https://dry-atoll-76166.herokuapp.com/AlMundoHotelsAPI/hotels
 
 ```
@@ -55,7 +58,10 @@ https://dry-atoll-76166.herokuapp.com/AlMundoHotelsAPI/hotels
 - Para consultar todos un hotel por medio del id, se debe enviar una peticion de tipo GET a la siguiente url enviando el id del hotel a consultar
 
 ```sh
+Localhost:
+http://localhost:9000/AlMundoHotelsAPI/hotels
 
+Publicado:
 https://dry-atoll-76166.herokuapp.com/AlMundoHotelsAPI/hotels/15102
 
 ```
@@ -76,6 +82,10 @@ Body: {
 	
 }
 
+Localhost:
+http://localhost:9000/AlMundoHotelsAPI/hotels
+
+Publicado:
 https://dry-atoll-76166.herokuapp.com/AlMundoHotelsAPI/hotels
 
 ```
@@ -83,7 +93,10 @@ https://dry-atoll-76166.herokuapp.com/AlMundoHotelsAPI/hotels
 - Para eliminar un hotel por medio del id, se debe enviar una peticion de tipo DELETE a la siguiente url enviando el id del hotel a eliminar
 
 ```sh
+Localhost:
+http://localhost:9000/AlMundoHotelsAPI/hotels
 
+Publicado:
 https://dry-atoll-76166.herokuapp.com/AlMundoHotelsAPI/hotels/1619121
 
 ```
@@ -104,6 +117,10 @@ Body: {
 	
 }
 
+Localhost:
+http://localhost:9000/AlMundoHotelsAPI/hotels
+
+Publicado:
 https://dry-atoll-76166.herokuapp.com/AlMundoHotelsAPI/hotels/1619121
 
 ```
