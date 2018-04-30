@@ -4,14 +4,16 @@ var bodyParser = require('body-parser');
 
 
 var app = express();
-var port = process.env.port;
+const PORT = process.env.PORT;
+
+app.listen(PORT, (error) => {
+    console.log("Servidor corriendo :",PORT);
+});
 
 app.use(bodyParser.json());
 app.use('/AlMundoHotelsAPI', hotelRout);
 
-app.listen(port, (error) => {
-    console.log("Servidor corriendo :",port);
-});
+
 
 
 
