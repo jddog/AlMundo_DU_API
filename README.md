@@ -55,11 +55,11 @@ https://dry-atoll-76166.herokuapp.com/AlMundoHotelsAPI/hotels
 
 ```
 
-- Para consultar todos un hotel por medio del id, se debe enviar una peticion de tipo GET a la siguiente url enviando el id del hotel a consultar
+- Para consultar un hotel por medio del id, se debe enviar una peticion de tipo GET a la siguiente url enviando el id del hotel a consultar
 
 ```sh
 Localhost:
-http://localhost:9000/AlMundoHotelsAPI/hotels
+http://localhost:9000/AlMundoHotelsAPI/hotels/15102
 
 Publicado:
 https://dry-atoll-76166.herokuapp.com/AlMundoHotelsAPI/hotels/15102
@@ -94,7 +94,7 @@ https://dry-atoll-76166.herokuapp.com/AlMundoHotelsAPI/hotels
 
 ```sh
 Localhost:
-http://localhost:9000/AlMundoHotelsAPI/hotels
+http://localhost:9000/AlMundoHotelsAPI/hotels/1619121
 
 Publicado:
 https://dry-atoll-76166.herokuapp.com/AlMundoHotelsAPI/hotels/1619121
@@ -118,7 +118,7 @@ Body: {
 }
 
 Localhost:
-http://localhost:9000/AlMundoHotelsAPI/hotels
+http://localhost:9000/AlMundoHotelsAPI/hotels/1619121
 
 Publicado:
 https://dry-atoll-76166.herokuapp.com/AlMundoHotelsAPI/hotels/1619121
