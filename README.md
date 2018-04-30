@@ -18,7 +18,7 @@ https://nodejs.org/en/
 - Se debe ejecutar el siguiente comando estando en el directorio que se desee obetener el codigo
 ```sh
 
-git clone https://github.com/jddog/AlMundo_DU.git
+git clone https://github.com/jddog/AlMundo_DU_API.git
 
 ```
 
